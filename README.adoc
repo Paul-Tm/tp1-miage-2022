@@ -107,6 +107,11 @@ Source : http://leanpub.com/get-your-hands-dirty-on-clean-architecture[Tom Hombe
 
 *Rappeler en quelques lignes les grands principes de l'architecture hexagonale.*
 
+L'architecture héxagonale repose sur 3 couches : le Domain,l’Application, l’Insfrastructure.
+Elle se base sur le principe d'inversion des dépendances qui permet de créer des programmes flexibles et stables.
+Elle permet aussi de séparer la logique métier avec les briques technologiques (API, bases de données,...).
+Cette architecture permet de favoriser les tests en isolation.
+
 Compléter ce code avec une fonctionnalité de création de `TodoItem`  persisté en base et appelé depuis un endpoint REST `POST /todos` qui :
 
 * prend un `TodoItem` au format JSON dans le body (voir exemple de contenu plus haut);
