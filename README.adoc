@@ -64,7 +64,7 @@ On demande à docker de lancer une image docker avec le mdp "password" sur le po
 
 *Pourquoi `todoItemRepository` est-il `null` ? Quelle est la meilleure façon de l'injecter ?*
 
-
+La meilleure façon de l'injecter est d'utiliser les injections de dépendances
 
 * Modifier le code en conséquence.
 
