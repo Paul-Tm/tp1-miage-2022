@@ -40,7 +40,9 @@ TIP: [Rappel Git] Trois dépôts sont ici utilisés: le dépot Github de l'ensei
 *Le code est-il structuré en couches ? Quel problèmes ce code peut-il poser ?*
 
 Les 4 couches qui structurent un code sont : Présentation=>Service=>Domaine=>Infrastructure. Chaque couche dépend de sa couche n+1.
-Dans le code de cet exercice, il n'y a pas de couches car le code n'est pas structuré en package
+Dans le code de cet exercice, il n'y a pas de couches car le code n'est pas structuré en package.
+
+Ce code peut poser problème car il est moins sécurisé et peut être difficile à maintenir
 
 *Où se trouve le code métier (voir la règle de gestion RG 1) ?*
 
