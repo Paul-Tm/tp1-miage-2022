@@ -132,6 +132,8 @@ Nous devrons écrire des tests unitaires afin de vérifier qu'un objet a été c
 
 *Que teste-on dans ce cas ?*
 
+Nous testons si le système réagit 
+
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
 
 [TIP]
