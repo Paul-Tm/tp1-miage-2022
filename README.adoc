@@ -128,6 +128,8 @@ _Temps estimé : 20 mins_
 
 *Quels types de tests devra-t-on écrire pour les adapteurs ?* 
 
+Nous devrons écrire des tests unitaires afin de vérifier qu'un objet a été créé depuis au moins 10 jours ou il y a moins de 10 jours
+
 *Que teste-on dans ce cas ?*
 
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
